@@ -7,6 +7,7 @@ import Home from './Home';
 import Contact from './Contact';
 import About from './Gallery';
 import Footer from './Footer';
+import Login from './Login';
 
 
 class Header extends Component {
@@ -27,7 +28,7 @@ render()
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="#home" className="text-white">Home</Nav.Link>
-      <Nav.Link href="#link" className="text-white">Login</Nav.Link>
+      <Nav.Link href="/Login" className="text-white">Login</Nav.Link>
       <Nav.Link href="#link" className="text-white">more</Nav.Link>
       <NavDropdown title="More"  className="text-white" id="basic-nav-dropdown">
         <NavDropdown.Item href="#action/3.1" >Action</NavDropdown.Item>
